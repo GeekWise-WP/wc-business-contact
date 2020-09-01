@@ -1,0 +1,96 @@
+.section_header p {
+  color: #fff;
+  margin: 2rem auto;
+  max-width: 575px;
+  
+}
+
+.section_header h2 {
+  color: #FAC759;
+}
+
+.contact_wrapper {
+  width: 100%;
+  padding: 5rem 1rem;
+  background-color: #5DA3B2;
+}
+
+.section_info h2 {
+  color: #fff;
+}
+
+.section_info {
+  color: #fff;
+  text-align: center;
+}
+
+.contact_info {
+  width: 50%;
+}
+
+.contact_wrapper .btn {
+  background-color: #FAC759;
+  border-radius: 2rem;
+  margin-top: 2px;
+  width: 169px;
+}
+
+.section_wrapper {
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.space {
+  padding: 20px;
+  overflow-wrap: break-word;
+}
+
+.contact {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+  margin: 30px 0px;
+  max-width: 560px
+}
+td {
+  width: 50%;
+}
+
+.job_title {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contact_wrapper {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section_header {
+    width: 50%
+  }
+
+  .section_header p {
+    max-width: 400px;
+    font-size: 24px;
+  }
+
+  .section_wrapper{
+    width: 50%;
+    margin-top: 0px;
+  }
+
+  .lrg_wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+/*# sourceMappingURL=style.css.map */
